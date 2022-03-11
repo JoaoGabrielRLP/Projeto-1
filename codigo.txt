@@ -2,6 +2,10 @@ teste
 
 comandos: git init: entra na pasta
 	  git status: ve sê o arquivo está atualizado
-	  git add: adiciona o arquivo no ontrole de versão do GIT
+	  git add: adiciona o arquivo no controle de versão do GIT
           git add . : Adiciona todos os arquivos da parta no controle de versão do GIT
+	  git commit -m "exemplo": cria uma versão do código, o "-m" significa mensagem	
+	  git config --global user.email: serve para fazer o repositório no site do GITHUB
+          git config --global user.name: Serve para atrelar o código no seu nome
+	  git push: envia as alterações para a nuvem
 	
