@@ -1,0 +1,7 @@
+teste
+
+comandos: git init: entra na pasta
+	  git status: ve sê o arquivo está atualizado
+	  git add: adiciona o arquivo no ontrole de versão do GIT
+          git add . : Adiciona todos os arquivos da parta no controle de versão do GIT
+	
