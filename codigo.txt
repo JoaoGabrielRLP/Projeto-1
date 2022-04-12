@@ -8,4 +8,9 @@ comandos: git init: entra na pasta
 	  git config --global user.email: serve para fazer o repositório no site do GITHUB
           git config --global user.name: Serve para atrelar o código no seu nome
 	  git push: envia as alterações para a nuvem
-	
+	  git remote add origin: serve para adicionar o link do repositório do github que foi criado
+	  
+Podemos criar várias versões do projeto:
+	  1 passo: git add .
+          2 passo: git commit -m "relato da alteração"
+          3 passo: git push: envia as alterações para o servidor do github 
