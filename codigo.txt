@@ -12,9 +12,13 @@ comandos: git init: entra na pasta
 	  git reflog: verifica o histórico de atualizações
 
 Podemos criar várias versões do projeto:
-	  1 passo: git add .
-          2 passo: git commit -m "relato da alteração"
-          3 passo: git push: envia as alterações para o servidor do github 
+	  1º passo: git add .
+          2º passo: git commit -m "relato da alteração"
+          3º passo: git push: envia as alterações para o servidor do github 
 
-Verificar histórico de atualizações:
+Navegar no histórico de atualizações:
+	  1º passo: git reflog
+	  2º passo: buscar os IDs que aparecem em amarelo logo após aplicar o comando
+          3º passos: git reset --hard 1658aa4 (ID de exmplo)
+	  Após seguir esses passos, o arquivo voltará a versão anterior escolhida
           
