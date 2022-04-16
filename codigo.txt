@@ -12,6 +12,7 @@ comandos: git init: entra na pasta
 	  git reflog: verifica o histórico de atualizações
 	  git branch: mostra as Branches que estão disponíveis no momento
 	  git checkout nomedabranch: troca para outra branch
+          git merge nomedabranch: mescla atualizações de uma branch para outra
 
 Podemos criar várias versões do projeto:
 	  1º passo: git add .
@@ -33,4 +34,8 @@ Branches
 	  Branching com o nome de Staging é uma branch para códigos que estão no processo de teste
           A branch que estamos usando no momento fica verde e com um asterísco do lado.
 	  As atualizações de uma branch não são transferidas para outra automaticamente.
+Como fazer um merge entre 2 branches (staging e master)
+	  1º Entrar na branch que quer que receba as atualizações com git checkout nomedabranch
+	  2º usar o comando de merge com a branch que teve a alteração ou ataulização (git merge nomedabranch)
+  	  3º git push				
 		
