@@ -10,6 +10,8 @@ comandos: git init: entra na pasta
 	  git push: envia as alterações para a nuvem
 	  git remote add origin: serve para adicionar o link do repositório do github que foi criado
 	  git reflog: verifica o histórico de atualizações
+	  git branch: mostra as Branches que estão disponíveis no momento
+	  git checkout nomedabranch: troca para outra branch
 
 Podemos criar várias versões do projeto:
 	  1º passo: git add .
@@ -21,4 +23,14 @@ Navegar no histórico de atualizações:
 	  2º passo: buscar os IDs que aparecem em amarelo logo após aplicar o comando
           3º passos: git reset --hard 1658aa4 (ID de exmplo)
 	  Após seguir esses passos, o arquivo voltará a versão anterior escolhida
-          
+
+Branches
+          São caminhos diferentes que podemos seguir em um projeto, cada branch é um local para o
+	  armazenamento do código. A branch master é a principal que enviamos nossas versões.
+  	  Podemos criar várias Branches paralelas para criar outros códigos, e passar o código
+	  das Branches paralelas para a branch principal assim que tivermos certeza do processo.
+	  O nome desse processo é merge.
+	  Branching com o nome de Staging é uma branch para códigos que estão no processo de teste
+          A branch que estamos usando no momento fica verde e com um asterísco do lado.
+	  As atualizações de uma branch não são transferidas para outra automaticamente.
+		
