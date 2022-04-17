@@ -53,7 +53,11 @@ Ciclo para fazer merge:
   	  5º Git checkout na branch principal	
 	  6º Git pull
 	  7º Unir (merge) o código da branch temporária com a branch principal (depois de testar)
-	  8º Git push da branch principal	
-          
+	  8º Git push da branch principal
+	
+Pull request    	
+	  É usado quando se trabalha em um grupo, e uma alteração no código, precisa ser avaliada por um supervisor antes
+	  de ser mesclado com a branch principal      
+
 			
 		
