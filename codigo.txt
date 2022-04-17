@@ -35,12 +35,24 @@ Branches
 	  Branching com o nome de Staging é uma branch para códigos que estão no processo de teste
           A branch que estamos usando no momento fica verde e com um asterísco do lado.
 	  As atualizações de uma branch não são transferidas para outra automaticamente.
+
 Como fazer um merge entre 2 branches (staging e master)
+	  IMPORTANTE: ANTES DE FAZER MERGE, SEMPRE PUXAR A VERSÃO MAIS ATUALIZADA DA NUVEM ANTES, POIS CASO TENHA SIDO FEITA
+	  UMA ALTERAÇÃO NO CÓDIGO FONTE, A SUA ATUALIZAÇÃO PODE SER FEITA EM UMA VERSÃO ANTIGA
+	  Para fazer isso, usamos o comando git pull
 	  1º Entrar na branch que quer que receba as atualizações com git checkout nomedabranch
 	  2º usar o comando de merge com a branch que teve a alteração ou ataulização (git merge nomedabranch)
   	  3º git push
-          IMPORTANTE: ANTES DE FAZER MERGE, SEMPRE PUXAR A VERSÃO MAIS ATUALIZADA DA NUVEM ANTES, POIS CASO TENHA SIDO FEITA
-	  UMA ALTERAÇÃO NO CÓDIGO FONTE, A SUA ATUALIZAÇÃO PODE SER FEITA EM UMA VERSÃO ANTIGA
-	  Para fazer isso, usamos o comando git pull
+
+Ciclo para fazer merge:
+	  1º git pull da branch principal
+  	  2º gerar uma nova branch a partir da branch principal
+   	  3º Trabalhar e adicionar novas funcionalidades na nova branch
+	  4º Finalizar o trabalho na branch temporária
+  	  5º Git checkout na branch principal	
+	  6º Git pull
+	  7º Unir (merge) o código da branch temporária com a branch principal (depois de testar)
+	  8º Git push da branch principal	
+          
 			
 		
