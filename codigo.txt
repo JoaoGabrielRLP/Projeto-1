@@ -13,6 +13,7 @@ comandos: git init: entra na pasta
 	  git branch: mostra as Branches que estão disponíveis no momento
 	  git checkout nomedabranch: troca para outra branch
           git merge nomedabranch: mescla atualizações de uma branch para outra
+	  git pull: puxa a versão mais recente e atualizada do código
 
 Podemos criar várias versões do projeto:
 	  1º passo: git add .
@@ -37,5 +38,9 @@ Branches
 Como fazer um merge entre 2 branches (staging e master)
 	  1º Entrar na branch que quer que receba as atualizações com git checkout nomedabranch
 	  2º usar o comando de merge com a branch que teve a alteração ou ataulização (git merge nomedabranch)
-  	  3º git push				
+  	  3º git push
+          IMPORTANTE: ANTES DE FAZER MERGE, SEMPRE PUXAR A VERSÃO MAIS ATUALIZADA DA NUVEM ANTES, POIS CASO TENHA SIDO FEITA
+	  UMA ALTERAÇÃO NO CÓDIGO FONTE, A SUA ATUALIZAÇÃO PODE SER FEITA EM UMA VERSÃO ANTIGA
+	  Para fazer isso, usamos o comando git pull
+			
 		
