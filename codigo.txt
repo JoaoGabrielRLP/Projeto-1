@@ -55,9 +55,13 @@ Ciclo para fazer merge:
 	  7º Unir (merge) o código da branch temporária com a branch principal (depois de testar)
 	  8º Git push da branch principal
 	
-Pull request    	
+Pull request:    	
 	  É usado quando se trabalha em um grupo, e uma alteração no código, precisa ser avaliada por um supervisor antes
-	  de ser mesclado com a branch principal      
-
+	  de ser mesclado com a branch principal, para isso, entramos no github após o envio do git push, e vamos em open e pull request
+	  Ao selecionar essa opção, abrirá um caixa de texto, na qual podemos dizer com mais detalhes o que foi feito na alteração
+	  Após detalhar, clicamos em create pull request   
+   
+Git ignore: 	
+	  Serve para arquivos, dados ou pastas que não queremos incluir no controle de versão	
 			
 		
