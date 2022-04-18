@@ -14,7 +14,9 @@ comandos: git init: entra na pasta
 	  git checkout nomedabranch: troca para outra branch
           git merge nomedabranch: mescla atualizações de uma branch para outra
 	  git pull: puxa a versão mais recente e atualizada do código
-	  git checkout -b nome: cria uma nova branch com base na branch principal e troca para ela
+	  git checkout -b nome: cria uma nova branch com base na branch principal e troca para ela	
+	  touch .gitignore: cria um arquivo para identificar as pastas que não serão enviadas pro controle de versão. No arquivo, escrever: nomedapasta/
+          ou nomedoarquivo.extensão
 
 Podemos criar várias versões do projeto:
 	  1º passo: git add .
